@@ -1,0 +1,7 @@
+<Context>
+	<Resource driverClassName="oracle.jdbc.driver.OracleDriver"
+		factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory" name="jdbc/Incontact"
+		type="javax.sql.DataSource" url="jdbc:oracle:thin:@69.33.0.166:1521:INCNTCT"
+		username="incontact_prd" password="incontact_prd" useNaming="true" />
+
+</Context>
